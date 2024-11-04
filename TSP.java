@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class TSPExp {
     int[][] weight;
-    int[] tour;// Adjusted the tour to be a 2D array
+    int[] tour;
     int n, finalCost;
     final int INF = Integer.MAX_VALUE; // Use max int value as a sentinel
 
