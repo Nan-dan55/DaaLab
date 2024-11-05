@@ -132,5 +132,6 @@ class TSPExp {
 class TSP {
     public static void main(String[] args) {
         TSPExp obj = new TSPExp();
+        s.close();
     }
 }
