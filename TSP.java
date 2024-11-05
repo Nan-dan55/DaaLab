@@ -35,6 +35,7 @@ class TSPExp {
         System.out.println();
         System.out.println("Starting node assumed to be node 1.");
         eval();
+        s.close();
     }
 
     public int COST(int currentNode, int[] inputSet, int setSize) {
@@ -132,6 +133,5 @@ class TSPExp {
 class TSP {
     public static void main(String[] args) {
         TSPExp obj = new TSPExp();
-        s.close();
     }
 }
