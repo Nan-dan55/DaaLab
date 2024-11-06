@@ -18,7 +18,7 @@ public class Kruskals {
     void krkl(int[][]a, int n)
     {
         int u=0,v=0,min,k=0,i,j,sum=0;
-        while(k<n-1)
+        while(k<n-1) //k<n-1 because the index start from 1 not from zero so if size is 4 it will make a size 5 matrix with 0 index as void
         {
             min=99;
             for(i=1;i<=n;i++)
